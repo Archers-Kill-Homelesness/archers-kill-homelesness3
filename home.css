@@ -2,6 +2,7 @@ body{
     background-color: #9D75EB;
 }
 .mainBanner {
+    /*position: absolute;*/
     display: flex;
     flex-direction: column;
     height: 600px;
@@ -43,6 +44,7 @@ nav {
 .bannerText {
     color: white;
     align-items: flex-end;
-    padding-top: 200px;
+    padding-top: 300px;
+    
 }
 
