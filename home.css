@@ -48,3 +48,21 @@ nav {
     
 }
 
+.secondSection{
+    color:white;
+    border:1px solid red;
+    height: 500px;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+}
+
+figure{
+    height: 270px;
+    border:1px solid red;
+    background: #D6C5F7;
+    width: 270px;
+    text-align: center;
+    border-radius: 30px;
+}
