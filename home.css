@@ -50,7 +50,7 @@ nav {
 
 .secondSection{
     color:white;
-    border:1px solid red;
+    /*border:1px solid red;*/
     height: 500px;
     display: flex;
     flex-direction:row;
@@ -60,9 +60,30 @@ nav {
 
 figure{
     height: 270px;
-    border:1px solid red;
+    /*border:1px solid red;*/
     background: #D6C5F7;
     width: 270px;
     text-align: center;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+
+.thirdSection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 40px;
+    background-color: #190838;
+}
+.diagramImage {
+    border-radius: 30px;
+    width: 30%;
+}
+.textSection {
+    flex: 1 2;
+    color: #190838;
+    background-color: #D9D9D9;
+    padding: 10px;
     border-radius: 30px;
 }
