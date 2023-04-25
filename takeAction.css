@@ -1,0 +1,104 @@
+body{
+    background-color: #9D75EB;
+}
+.mainBanner {
+    /*position: absolute;*/
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    background-image: url(Images/HomelessnessBanner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.menuBar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #190838;
+    opacity: .7;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    align-items: center;
+}
+.headerNav {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    /*positioning*/
+    gap: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    opacity: 1;
+    /*styling*/
+    background-color: #9D75EB;
+    border-radius: 30px;
+    font-size: 16px;
+    color: white;
+}
+.bannerText {
+    color: white;
+    align-items: flex-end;
+    padding-top: 300px;
+    
+}
+.takeAction {
+    text-align: center;
+    color: white;
+}
+
+.centerSection {
+    
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    background-color: #190838;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.donateSection{
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+footer {
+    background-color: #190838;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    max-height: 80px;
+}
+button {
+    width: 150px;
+    height: 30px;
+}
+.donateFigure {
+    text-align: center;
+    padding: 0px;
+    line-height: 0px;
+}
+.footerNav {
+    padding: 0px;
+    margin: 0px;
+    line-height: 0px;
+}
+
+.donateFigure {
+    align-items: center;
+}
