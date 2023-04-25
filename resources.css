@@ -20,7 +20,7 @@
     height: 70px;
     align-items: center;
 }
-nav {
+.menuNav {
     display: flex;
     align-items: center;
     height: 40px;
@@ -94,9 +94,4 @@ button {
     padding: 0px;
     margin: 0px;
     line-height: 0px;
-}
-
-button{
-    padding: 10px;
-    
 }
