@@ -87,3 +87,28 @@ figure{
     padding: 10px;
     border-radius: 30px;
 }
+
+.fourthSection{
+    height: 400px;
+    display: flex;
+    flex-direction:column;
+}
+
+.textBubbles{
+    color:white;
+    background-color: #190838;
+    padding: 40px;
+    display: flex;
+    flex-direction:row;
+    border-radius: 30px;
+    flex:1 2;
+}
+
+section{
+    display: flex;
+    flex: 1 2;
+}
+
+img:nth-of-type(2-4){
+    height:20%;
+}
