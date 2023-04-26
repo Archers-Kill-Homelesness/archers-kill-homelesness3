@@ -52,6 +52,11 @@ body{
         text-align: center;
         
     }
+    .bannerText {
+        color: white;
+        align-items: center;
+        padding-top: 120px;
+    }
     /*centerSection*/
      section {
         display: flex;
