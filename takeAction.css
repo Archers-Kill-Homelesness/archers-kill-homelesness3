@@ -1,6 +1,19 @@
 body{
     background-color: #9D75EB;
+    font-family: sans-serif;
+    margin: 0px
 }
+.donateSection {
+    border-radius: 30px;
+}
+.volunteerSection {
+    border-radius: 30px;
+}
+
+
+
+
+
 
 @media (max-width: 480px){
     body{
@@ -63,7 +76,6 @@ body{
         max-height: 80px;
         margin-top: 20px;
         }
-
     .footerNav {
         padding: 0px;
         margin: 0px;
@@ -83,18 +95,6 @@ body{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width: 481px){
     .mainBanner {
         /*position: absolute;*/
@@ -108,9 +108,9 @@ body{
         background-attachment: fixed;
     }
     .menuBar {
+        background-color: #190838;
         display: flex;
         justify-content: space-between;
-        background-color: #190838;
         opacity: .7;
     }
     .logo{
@@ -132,25 +132,24 @@ body{
         padding-right: 10px;
         padding-left: 10px;
         opacity: 1;
-        /*styling*/
+    }
+    .navText{
         background-color: #9D75EB;
+        padding: 8px;
         border-radius: 30px;
-        font-size: 16px;
+        font-size: 18px;
         color: white;
+        text-shadow: black;
     }
     .bannerText {
         color: white;
         align-items: flex-end;
         padding-top: 300px;
-        
     }
     .takeAction {
         text-align: center;
         color: white;
     }
-    
-    
-    
     section {
         display: flex;
         flex-direction: column;
@@ -182,15 +181,11 @@ body{
         text-align: center;
         padding: 0px;
         line-height: 0px;
+        align-items: center;
     }
     .footerNav {
         padding: 0px;
         margin: 0px;
         line-height: 0px;
     }
-    
-    .donateFigure {
-        align-items: center;
-    }
-
 }
