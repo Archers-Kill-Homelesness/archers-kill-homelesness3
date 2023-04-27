@@ -167,12 +167,26 @@ body{
         height: 400px;
     }
     .volunteerBanner {
-        padding: 200px;
+        padding-top: 150px;
+        padding-bottom: 150px;
+        width: 100%;
         display: flex;
         flex-direction: column;
         height: auto;
-        width: auto;
         background-image: url(Images/Volunteer.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .donateBanner {
+        padding-top: 150px;
+        padding-bottom: 150px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        background-image: url(Images/donateImage.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
