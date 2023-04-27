@@ -50,7 +50,7 @@ body{
     }
     .takeAction {
         text-align: center;
-        
+        text-shadow: 5px 5px 5px #0f071c;
     }
     .bannerText {
         color: white;
@@ -67,10 +67,17 @@ body{
         align-items: center;
         padding: 10px;
         margin-top: 10px;
+        box-shadow: 5px 5px 5px #190838;
     }
-    
+   
     .donateSection{
         margin-bottom: 15px;
+        box-shadow: 5px 5px 5px #190838;
+    }
+    
+    .volunteerSection{
+        margin-bottom: 15px;
+        box-shadow: 5px 5px 5px #190838;
     }
     
     footer {
@@ -154,6 +161,22 @@ body{
     .takeAction {
         text-align: center;
         color: white;
+        text-shadow: 5px 5px 5px #0f071c;
+    }
+    .backgroundImage {
+        height: 400px;
+    }
+    .volunteerBanner {
+        padding: 200px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        background-image: url(Images/Volunteer.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
     section {
         display: flex;
@@ -164,10 +187,16 @@ body{
         align-items: center;
         padding: 10px;
         margin-top: 10px;
+        box-shadow: 5px 5px 5px #190838;
+        margin-left:40px;
+        margin-right: 40px;
     }
-    
     .donateSection{
         margin-bottom: 15px;
+    }
+     p {
+        margin-left:20px;
+        margin-right: 20px;
     }
     
     footer {
@@ -187,6 +216,8 @@ body{
         padding: 0px;
         line-height: 0px;
         align-items: center;
+        box-shadow: 5px 5px 5px #190838;
+
     }
     .footerNav {
         padding: 0px;
