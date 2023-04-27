@@ -38,16 +38,36 @@ body{
         margin-right: 15px;
         margin-top: 10px;
     }
-    .takeAction {
-        text-align: center;
-        
-    }
     .bannerText {
         color: white;
         align-items: center;
         padding-top: 120px;
     }
-
+        a:link {
+      color: white;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:visited {
+      color: white;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      color: white;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    
+    a:active {
+      color: white;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    
+    /*body*/
     .secondSection{
         color: #190838;
         /*border:1px solid red;*/
@@ -342,5 +362,28 @@ body{
         padding: 0px;
         margin: 0px;
         line-height: 0px;
+    }
+        a:link {
+      color: white;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:visited {
+      color: white;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      color: white;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    
+    a:active {
+      color: white;
+      background-color: transparent;
+      text-decoration: underline;
     }
 }

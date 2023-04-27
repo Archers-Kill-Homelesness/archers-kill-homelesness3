@@ -167,7 +167,7 @@ body{
         border-radius: 30px;
         font-size: 18px;
         color: #9D75EB;
-        text-shadow: black;
+        text-shadow: 5px 5px 5px #0f071c;
         box-shadow: 5px 5px 5px #0f071c;
     }
     .bannerText {
@@ -183,7 +183,30 @@ body{
           0% { opacity: 0; }
           100% { opacity: 1; }
         }
+            a:link {
+      color: white;
+      background-color: transparent;
+      text-decoration: none;
+    }
     
+    a:visited {
+      color: white;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      color: white;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    
+    a:active {
+      color: white;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    /*body*/
     .takeAction {
         text-align: center;
         color: white;
@@ -239,7 +262,7 @@ body{
         margin-left:20px;
         margin-right: 20px;
     }
-    
+    /*footer*/
     footer {
         background-color: #190838;
         color: white;
@@ -265,5 +288,27 @@ body{
         margin: 0px;
         line-height: 0px;
     }
-
+        a:link {
+      color: white;
+      background-color: transparent;
+      text-decoration: none;
+    }
     
+    a:visited {
+      color: white;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      color: white;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    
+    a:active {
+      color: white;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+
