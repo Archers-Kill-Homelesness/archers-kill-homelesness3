@@ -49,8 +49,9 @@ body{
         margin-top: 10px;
     }
     .takeAction {
+        color: white;
         text-align: center;
-        text-shadow: 5px 5px 5px #0f071c;
+        text-shadow: 2px 2px 2px #0f071c;
     }
     .bannerText {
         color: white;
@@ -107,6 +108,29 @@ body{
     .footerLogo {
         height:80px;
         width:80px;
+    }
+    a:link {
+      color: white;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:visited {
+      color: white;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      color: white;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    
+    a:active {
+      color: white;
+      background-color: transparent;
+      text-decoration: underline;
     }
 
 }
