@@ -107,8 +107,8 @@ body {
         margin-right: 10px;
     }
     .footerLogo {
-        height: 80px;
-        width: 80px;
+        height: 60px;
+        width: 60px;
     }
     .donateFigure {
         display: none
@@ -141,6 +141,28 @@ body {
     }
     .takeAction {
         text-align: center;
+    }
+     a:link {
+      color: white;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:visited {
+      color: white;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      color: white;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    
+    a:active {
+      color: white;
+      background-color: transparent;
+      text-decoration: underline;
     }
 }
 
@@ -201,29 +223,6 @@ body {
         color: #9D75EB;
         text-shadow: 5px 5px 5px #0f071c;
         box-shadow: 5px 5px 5px #0f071c;
-    }
-    a:link {
-      color: white;
-      background-color: transparent;
-      text-decoration: none;
-    }
-    
-    a:visited {
-      color: white;
-      background-color: transparent;
-      text-decoration: none;
-    }
-    
-    a:hover {
-      color: white;
-      background-color: transparent;
-      text-decoration: underline;
-    }
-    
-    a:active {
-      color: white;
-      background-color: transparent;
-      text-decoration: underline;
     }
     .bannerText {
         color: white;
@@ -307,8 +306,7 @@ body {
         margin: 0px;
         line-height: 0px;
     }
-
-    a:link {
+     a:link {
       color: white;
       background-color: transparent;
       text-decoration: none;
@@ -331,4 +329,3 @@ body {
       background-color: transparent;
       text-decoration: underline;
     }
-}

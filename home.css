@@ -43,7 +43,7 @@ body{
         align-items: center;
         padding-top: 120px;
     }
-        a:link {
+    a:link {
       color: white;
       background-color: transparent;
       text-decoration: none;
@@ -363,7 +363,7 @@ body{
         margin: 0px;
         line-height: 0px;
     }
-        a:link {
+    a:link {
       color: white;
       background-color: transparent;
       text-decoration: none;
