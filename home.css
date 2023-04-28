@@ -10,7 +10,7 @@ body{
         font-family: sans-serif;
         text-align:center;
     }
- 
+
   .logo{
         height: 100px;
         width: 100px;
@@ -48,25 +48,25 @@ body{
       background-color: transparent;
       text-decoration: none;
     }
-    
+
     a:visited {
       color: white;
       background-color: transparent;
       text-decoration: none;
     }
-    
+
     a:hover {
       color: white;
       background-color: transparent;
       text-decoration: underline;
     }
-    
+
     a:active {
       color: white;
       background-color: transparent;
       text-decoration: underline;
     }
-    
+
     /*body*/
     .secondSection{
         color: #190838;
@@ -79,7 +79,7 @@ body{
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    
+
     figure{
         /*border:1px solid red;*/
         background: #D6C5F7;
@@ -90,8 +90,8 @@ body{
         height: auto;
         box-shadow: 5px 5px 5px #0f071c;
     }
-    
-    
+
+
     .thirdSection {
         display: flex;
         flex-direction:column;
@@ -102,30 +102,30 @@ body{
         width: auto;
         box-shadow: 5px 5px 5px #0f071c;
     }
-    
+
     section {
         align-items: center;
     }
-    
+
     .diagramImage {
         border-radius: 30px;
-    
+
     }
     .textSection {
-    
+
         color: #190838;
         background-color: #D9D9D9;
         padding: 10px;
         border-radius: 30px;
     }
-    
+
     .fourthSection{
         height: 400px;
         display: flex;
         flex-direction:column;
         align-items: center;
     }
-    
+
     .textBubbles{
         color:white;
         background-color: #190838;
@@ -138,7 +138,7 @@ body{
         font-size: 15px;
         box-shadow: 5px 5px 5px #0f071c;
     }
-    
+
     .imageIcons {
         width: 200px;
         height: 200px;
@@ -146,17 +146,17 @@ body{
         display:flex;
         justify-content: center;
     }
-    
+
     section{
         display: flex;
         flex: 1 2;
         flex-direction:column;
     }
-    
+
     img:nth-of-type(2-4){
         height:20%;
     }
-    
+
     footer {
         background-color: #190838;
         color: white;
@@ -251,13 +251,13 @@ body{
         text-family: sans-serif;
         font-size: 30px;
     }
-    
-    @keyframes fadeIn { 
+
+    @keyframes fadeIn {
           0% { opacity: 0; }
           100% { opacity: 1; }
         }
-    
-    
+
+
     .secondSection{
         color: #190838;
         /*border:1px solid red;*/
@@ -269,7 +269,7 @@ body{
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    
+
     figure{
         /*border:1px solid red;*/
         background: #D6C5F7;
@@ -280,8 +280,8 @@ body{
         height: auto;
         box-shadow: 5px 5px 5px #0f071c;
     }
-    
-    
+
+
     .thirdSection {
         display: flex;
         flex-wrap: wrap;
@@ -302,15 +302,15 @@ body{
         padding: 10px;
         border-radius: 30px;
         text-shadow: 2px 2px px #0f071c;
-    
+
     }
-    
+
     .fourthSection{
         height: 400px;
         display: flex;
         flex-direction:column;
     }
-    
+
     .textBubbles{
         color:white;
         background-color: #190838;
@@ -324,7 +324,7 @@ body{
         text-shadow: 5px 5px 5px black;
         box-shadow: 5px 5px 5px #0f071c;
     }
-    
+
     .imageIcons {
         width: 300px;
         height: 300px;
@@ -332,16 +332,16 @@ body{
         margin-right: 30px;
         justify-content: center;
     }
-    
+
     section{
         display: flex;
         flex: 1 2;
     }
-    
+
     img:nth-of-type(2-4){
         height:20%;
     }
-    
+
     footer {
         background-color: #190838;
         color: white;
@@ -368,19 +368,19 @@ body{
       background-color: transparent;
       text-decoration: none;
     }
-    
+
     a:visited {
       color: white;
       background-color: transparent;
       text-decoration: none;
     }
-    
+
     a:hover {
       color: white;
       background-color: transparent;
       text-decoration: underline;
     }
-    
+
     a:active {
       color: white;
       background-color: transparent;
