@@ -42,7 +42,16 @@ body{
         color: white;
         align-items: center;
         padding-top: 120px;
+        animation: fadeIn 6s;
+        text-family: sans-serif;
     }
+
+    @keyframes fadeIn {
+          0% { opacity: 0; }
+          100% { opacity: 1; }
+        }
+    
+    
     a:link {
       color: white;
       background-color: transparent;
@@ -167,6 +176,7 @@ body{
         justify-content: space-between;
         max-height: 80px;
         margin-top: 20px;
+        width:100%;
         }
     .footerNav {
         padding: 0px;
@@ -358,6 +368,10 @@ body{
         padding: 0px;
         margin: 0px;
         line-height: 0px;
+    }
+    .footerLogo {
+        height:80px;
+        width:80px;
     }
     a:link {
       color: white;

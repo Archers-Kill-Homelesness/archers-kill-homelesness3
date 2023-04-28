@@ -3,6 +3,11 @@ body {
     margin: 0px;
 }
 
+section{
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 5px 5px 5px #190838;
+}
 
 /*mobile view*/
 @media(max-width: 480px) {
@@ -48,7 +53,14 @@ body {
         align-items: center;
         padding-top: 120px;
         text-align: center;
+        animation: fadeIn 6s;
+        text-family: sans-serif;
     }
+
+    @keyframes fadeIn {
+          0% { opacity: 0; }
+          100% { opacity: 1; }
+        }
     
     /*body*/
 
@@ -112,6 +124,10 @@ body {
     text-shadow: 5px 5px 5px #0f071c;
     color:white;
 }
+    .seeMoreButtons{
+        border-radius: 30px;
+        color: white
+    }
 
     /*footer*/
     footer {
