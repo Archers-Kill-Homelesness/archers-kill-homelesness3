@@ -4,6 +4,13 @@ body{
     margin: 0px;
 }
 
+section {
+    margin: 20px;
+}
+.thirdSection {
+    margin: 20px;
+}
+
 @media(max-width:480px){
     body{
         background-color: #9D75EB;
