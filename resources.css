@@ -3,11 +3,6 @@ body {
     margin: 0px;
 }
 
-.resources {
-    text-align: center;
-    text-shadow: 5px 5px 5px #0f071c;
-    font-size: 65px
-}
 
 /*mobile view*/
 @media(max-width: 480px) {
@@ -70,9 +65,26 @@ body {
         padding-bottom: 30px;
     }
 
-    button {
-        text-align: center
+     button {
+        width: auto;
+        height: auto;
+        padding:15px;
+        border-radius: 30px;
+        box-shadow: 5px 5px 5px #190838;
+        font-size: 15px;
+        background-color: #9D75EB;
     }
+    button:hover {
+        width: auto;
+        height: auto;
+        padding:15px;
+        border-radius: 30px;
+        box-shadow: 5px 5px 5px #190838;
+        font-size: 15px;
+        color: white;
+        background-color: #purple;
+    }
+    
 
     body {
         background-color: #9D75EB;
@@ -98,7 +110,7 @@ body {
     .resources {
     text-align: center;
     text-shadow: 5px 5px 5px #0f071c;
-    font-size: 65px
+    color:white;
 }
 
     /*footer*/
@@ -307,9 +319,24 @@ body {
         max-height: 80px;
     }
     button {
-        width: 150px;
-        height: 30px;
-        margin-bottom: 20px;
+        width: auto;
+        height: auto;
+        padding:20px;
+        border-radius: 30px;
+        box-shadow: 5px 5px 5px #190838;
+        font-size: 30px;
+        background-color: #9D75EB;
+
+    }
+    button:hover {
+        width: auto;
+        height: auto;
+        padding:20px;
+        border-radius: 30px;
+        box-shadow: 5px 5px 5px #190838;
+        font-size: 30px;
+        color: white;
+        background-color: #purple;
     }
     .donateFigure {
         text-align: center;
@@ -354,5 +381,13 @@ body {
 
     .seeMoreButtons{
         border-radius: 30px;
-        color: purple
+        color: white
     }
+    
+    .resources {
+    text-align: center;
+    text-shadow: 5px 5px 5px #0f071c;
+    font-size: 65px
+}
+
+}
