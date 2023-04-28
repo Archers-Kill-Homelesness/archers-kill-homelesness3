@@ -6,6 +6,7 @@ body {
 .resources {
     text-align: center;
     text-shadow: 5px 5px 5px #0f071c;
+    font-size: 65px
 }
 
 /*mobile view*/
@@ -41,7 +42,7 @@ body {
     }
     .takeAction {
         text-align: center;
-        
+
     }
     .bannerText {
         color: white;
@@ -152,13 +153,13 @@ body {
       background-color: transparent;
       text-decoration: none;
     }
-    
+
     a:hover {
       color: white;
       background-color: transparent;
       text-decoration: underline;
     }
-    
+
     a:active {
       color: white;
       background-color: transparent;
@@ -267,6 +268,8 @@ body {
         flex-wrap: nowrap;
         align-items: center;
         text-align: center;
+        margin-bottom: 70px;
+        margin-top: 50px;
     }
     p {
         font-size: 30px;
@@ -279,8 +282,8 @@ body {
         padding: 30px;
     }
     .imageIcon {
-        width: 40%;
-        height: 100%;
+        width: 20%;
+        height: 90%;
     }
 
     /*footer*/
@@ -311,21 +314,33 @@ body {
       background-color: transparent;
       text-decoration: none;
     }
-    
+
     a:visited {
       color: white;
       background-color: transparent;
       text-decoration: none;
     }
-    
+
     a:hover {
       color: white;
       background-color: transparent;
       text-decoration: underline;
     }
-    
+
     a:active {
       color: white;
       background-color: transparent;
       text-decoration: underline;
+    }
+    
+    .sectionTitles{
+        font-family: sans-serif;
+        font-size: 40px;
+        color: black;
+        text-decoration: underline
+    }
+
+    .seeMoreButtons{
+        border-radius: 30px;
+        color: purple
     }
